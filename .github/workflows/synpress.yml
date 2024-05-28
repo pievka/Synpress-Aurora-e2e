@@ -34,5 +34,5 @@ jobs:
 
     - run: yarn install --immutable
     - run: yarn playwright install --with-deps
-    - run: yarn synpress
-    - run: yarn playwright test
+    - run: xvfb-run yarn synpress
+    - run: xvfb-run yarn playwright test
