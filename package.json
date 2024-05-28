@@ -1,0 +1,17 @@
+{
+    "type": "module",
+    "dependencies": {
+      "@synthetixio/synpress": "^4.0.0-alpha.7",
+      "dotenv": "^16.4.5",
+      "typescript": "^5.4.5"
+    },
+    "devDependencies": {
+      "@playwright/test": "^1.44.1",
+      "@types/node": "^20.12.12"
+    },
+    "scripts": {
+      "generate-new-cache": "yarn synpress",
+      "run-tests": "yarn playwright test"
+    }
+  }
+  
